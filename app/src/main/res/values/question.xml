@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="my_question">
+
+        <item>1. What is this ?</item>
+        <item>2. นี่คือ อะไร ?</item>
+        <item>3. นี่คือ อะไร ?</item>
+        <item>4. นี่คือ อะไร ?</item>
+        <item>5. นี่คือ อะไร ?</item>
+        <item>6. นี่คือ อะไร ?</item>
+        <item>7. นี่คือ อะไร ?</item>
+        <item>8. นี่คือ อะไร ?</item>
+        <item>9. นี่คือ อะไร ?</item>
+        <item>10. นี่คือ อะไร ?</item>
+
+
+    </string-array>
+
+</resources>
