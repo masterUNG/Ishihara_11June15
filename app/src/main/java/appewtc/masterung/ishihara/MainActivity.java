@@ -187,6 +187,9 @@ public class MainActivity extends AppCompatActivity {
 
             //Intent to ShowScore
             Intent objIntent = new Intent(MainActivity.this, ShowScoreActivity.class);
+
+            objIntent.putExtra("Score", scoreAnInt);
+
             startActivity(objIntent);
             finish();
 
@@ -227,14 +230,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (item.getItemId()) {
+            case R.id.itemAboutMe:
+                startActivity(new Intent(this, AboutMeActivity.class));
+                break;
+            case R.id.itemHowTo:
+                startActivity(new Intent(this, HowToActivity.class));
+                break;
         }
 
         return super.onOptionsItemSelected(item);
